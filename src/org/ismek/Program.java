@@ -21,10 +21,14 @@ public class Program {
 			ogrenciDizisi[i] = ogrenci;
 		}
 		
+//		for (Ogrenci ogrenci : ogrenciDizisi) {
+//			Yazdirici.islemSonucuYazdir("Öğrenci Adı", ogrenci.adi);
+//			Yazdirici.islemSonucuYazdir("Öğrenci Numarası", ogrenci.numara);
+//			Yazdirici.ayracYazdir();
+//		}
+		
 		for (Ogrenci ogrenci : ogrenciDizisi) {
-			Yazdirici.islemSonucuYazdir("Öğrenci Adı", ogrenci.adi);
-			Yazdirici.islemSonucuYazdir("Öğrenci Numarası", ogrenci.numara);
-			Yazdirici.ayracYazdir();
+			System.out.println(ogrenci.toString());
 		}
 	}
 }

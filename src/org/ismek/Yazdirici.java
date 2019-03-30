@@ -13,11 +13,15 @@ public class Yazdirici {
 	}
 
 	static void ayracYazdir() {
+		System.out.println("");
 		System.out.println("*****************************");
+		System.out.println("");
 	}
 
 	static void islemSonucuYazdir(String baslik, String deger) {
+		System.out.println("");
 		System.out.println("*****" + baslik + "=" + deger + "***************");
+		System.out.println("");
 	}
 	
 	static void islemSonucuYazdir(String baslik, int deger) {
